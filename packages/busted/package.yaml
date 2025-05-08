@@ -1,0 +1,16 @@
+---
+name: luals-addon-busted
+description: Lua language server addon for busted
+homepage: https://github.com/LuaCATS/busted
+licenses:
+  - MIT
+languages:
+  - Lua
+categories:
+  - LSP
+source:
+  id: pkg:generic/brunotvs/busted@main
+  build:
+    run: git clone https://github.com/brunotvs/busted-luals-addon.git busted
+share:
+  luals-addons/busted/module/: busted/

@@ -1,0 +1,16 @@
+---
+name: luals-addon-luassert
+description: Lua language server addon for luassert
+homepage: https://github.com/LuaCATS/busted
+licenses:
+  - MIT
+languages:
+  - Lua
+categories:
+  - LSP
+source:
+  id: pkg:generic/LuaCATS/luassert@main
+  build:
+    run: git clone https://github.com/LuaCATS/luassert.git
+share:
+  luals-addons/luassert/module/: luassert/
