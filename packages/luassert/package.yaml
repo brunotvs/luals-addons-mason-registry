@@ -13,4 +13,4 @@ source:
   build:
     run: git clone https://github.com/LuaCATS/luassert.git
 share:
-  luals-addons/luassert/module/: luassert/
+  luals-addons/addonManager/addons/luassert/module/: luassert/

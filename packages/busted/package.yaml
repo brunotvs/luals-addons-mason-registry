@@ -13,4 +13,4 @@ source:
   build:
     run: git clone https://github.com/brunotvs/busted-luals-addon.git busted
 share:
-  luals-addons/busted/module/: busted/
+  luals-addons/addonManager/addons/busted/module/: busted/
